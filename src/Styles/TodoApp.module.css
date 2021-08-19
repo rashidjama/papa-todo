@@ -1,0 +1,28 @@
+.todo_app {
+  width: 60%;
+  min-height: 100vh;
+  background-color: rgb(232, 229, 229);
+  margin: 0 auto;
+  padding: 1rem;
+}
+.todo_app h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.author {
+  color: rgb(235, 47, 110);
+}
+.todo_app p {
+  margin: 1rem 0;
+  background-color: #fff;
+  padding: 1rem;
+}
+@media screen and (max-width: 992px) {
+  .todo_app {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(232, 229, 229);
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}

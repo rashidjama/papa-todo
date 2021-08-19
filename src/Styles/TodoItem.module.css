@@ -1,0 +1,19 @@
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.6rem;
+  margin: 0.5rem 0;
+}
+.task_done {
+  color: green;
+  text-decoration: line-through;
+}
+.todo_item button {
+  padding: 0.3rem;
+  margin-right: 0.6rem;
+}
+.todo_item button:hover {
+  background-color: #222;
+  color: #fff;
+}

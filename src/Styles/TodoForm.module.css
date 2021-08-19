@@ -1,0 +1,24 @@
+.todo_form  input{
+  width: 86.3%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}
+.todo_form button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-left: 0.1rem;
+}
+.todo_form button:hover {
+  background: #222;
+  color: #fff;
+  border: 1px solid #fff;
+}
+@media screen and (max-width: 600px) {
+  .todo_form  input{
+    width: 65%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+  }
+}
